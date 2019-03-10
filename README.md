@@ -5,7 +5,7 @@ A macOS widget that students in my courses can use to note the amount of days le
 ## How Does it Work?
 1. Clone this repo.
 2. In GitHub Desktop, check out the branch associated with your course.
-3. Locate the widget in The Finder: `⌘` `⇧` `A`
+3. Locate the widget in The Finder: `⌘` `⇧` `A`.
 4. Double-click `Assignment-Dates.wdgt`.
 
 ## Enable Your Dashboard
