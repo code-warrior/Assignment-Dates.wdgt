@@ -1,5 +1,5 @@
 # Assignments Dates (macOS Widget)
-![](Screenshot 2019-03-10 12.41.52.png)
+![](screenshot.png)
 
 ## What is This?
 A macOS widget that students in my courses can use to note the amount of days left before all assignments are due.
