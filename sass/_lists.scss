@@ -1,0 +1,21 @@
+ul {
+   margin-left: 26px;
+   list-style-type: none;
+}
+
+li {
+   margin: 4px 6px;
+
+   &:nth-child(1) {
+      margin-top: 8px;
+      list-style: url('assets/svgs/solid/calendar-alt.svg');
+   }
+
+   &:nth-child(2) {
+      list-style: url('assets/svgs/solid/clock.svg');
+   }
+
+   &:nth-child(3) {
+      list-style: url('assets/svgs/solid/external-link-alt.svg');
+   }
+}

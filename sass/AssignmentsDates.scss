@@ -1,0 +1,81 @@
+@import 'variables';
+@import 'headings';
+@import 'lists';
+@import 'links';
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+   border-radius: 12px;
+   font-size: $font-size--base;
+}
+
+body {
+   margin: auto;
+   background-color: $background-color--page;
+   padding: 0 $padding--page;
+   width: $width--page;
+   height: auto;
+   color: $color--text;
+   font-family: $font-stack--reading;
+}
+
+header {
+   text-align: center;
+}
+
+section {
+   margin-bottom: 22px;
+   box-shadow: 0 4px 2px $color--shadow;
+   background-color: $background-color--section;
+
+   &:last-of-type {
+      margin-bottom: 0;
+   }
+}
+
+i,
+em {
+   font-family: 'OpenSans-Italic', sans-serif;
+}
+
+.card {
+   display: flex;
+   align-items: center;
+
+   > div {
+      &:first-of-type {
+         flex-basis: 20%;
+         background-color: $background-color--page;
+         text-align: center;
+         font-size: 2rem;
+      }
+   }
+}
+
+.catalog-number {
+   font-size: 1.1rem;
+}
+
+.bell-container {
+   line-height: 71px;
+
+   .bell {
+      width: 200px;
+      fill: $color--primary;
+   }
+}
+
+[data-days-left-before-midterm-submission],
+[data-days-left-before-semester-assignment-submission],
+[data-days-left-before-project-due-submission] {
+   color: darken($color--primary, 10%);
+   font-weight: bold;
+   background-color: $background-color--page;
+   padding: 3px 4px;
+   border-radius: 8px;
+   border: 1px solid lighten($color--primary, 10%);
+}

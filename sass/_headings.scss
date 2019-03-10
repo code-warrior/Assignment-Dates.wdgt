@@ -1,0 +1,31 @@
+@import 'variables';
+
+h1,
+h2,
+strong,
+b {
+   font-family: 'OpenSans-SemiBold', sans-serif;
+}
+
+h1 {
+   margin: 8px 0;
+   line-height: 1.4;
+   font-size: $font-size--h1;
+}
+
+h2 {
+   margin: 12px 0 0;
+   background-color: $color--primary;
+   padding: 4px 0;
+   text-align: center;
+   letter-spacing: 2px;
+   font-size: 1.2rem;
+}
+
+h1,
+h2 {
+   i,
+   em {
+      font-family: 'OpenSans-SemiBoldItalic', sans-serif;
+   }
+}

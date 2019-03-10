@@ -1,0 +1,13 @@
+$width--grid-column:        60px;
+$width--grid-gutter:        10px;
+$width--grid-unit:          ($width--grid-column + $width--grid-gutter);
+$width--page:               (3 * $width--grid-unit);
+$font-stack--reading:       'OpenSans-Regular', sans-serif;
+$font-size--base:           12px;
+$font-size--h1:             (1.3 * $font-size--base);
+$padding--page:             10px;
+$color--primary:            #99f;
+$color--text:               #222;
+$color--shadow:             #eee;
+$background-color--page:    #fff;
+$background-color--section: #eef3fe;

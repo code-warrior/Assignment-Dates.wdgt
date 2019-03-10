@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+   <dict>
+      <key>AllowNetworkAccess</key>
+      <true/>
+      <key>AllowFileAccessOutsideOfWidget</key>
+      <true/>
+      <key>AllowSystem</key>
+      <true/>
+      <key>CFBundleDisplayName</key>
+      <string>Assignments Dates</string>
+      <key>CFBundleIdentifier</key>
+      <string>com.apple.widget.assignmentsdates</string>
+      <key>CFBundleVersion</key>
+      <string>1.0</string>
+      <key>CloseBoxInsetX</key>
+      <integer>4</integer>
+      <key>CloseBoxInsetY</key>
+      <integer>4</integer>
+      <key>MainHTML</key>
+      <string>AssignmentsDates.html</string>
+      <key>Width</key>
+      <integer>234</integer>
+      <key>Height</key>
+      <integer>484</integer>
+      <key>Fonts</key>
+      <array>
+         <string>OpenSans-Regular.ttf</string>
+         <string>OpenSans-Italic.ttf</string>
+         <string>OpenSans-SemiBold.ttf</string>
+         <string>OpenSans-SemiBoldItalic.ttf</string>
+      </array>
+   </dict>
+</plist>
