@@ -12,3 +12,9 @@ A macOS widget that students in my courses can use to note the amount of days le
 
 ## Enable Your Dashboard
 If Dashboard isn’t enabled, open System Preferences, choose **Mission Control**, then choose **As Space** or **As Overlay** next to the **Dashboard** section.
+
+## Launching Dashboard
+Type `F12`. If you’re using a MacBook Pro with Touch Bar, type `fn`, which should bring up `F12` on the Touch Bar.
+
+## Using The Widget
+In Dashboard, type `⌘` + `R` to re-calculate the assignment dates.
